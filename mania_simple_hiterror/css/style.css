@@ -1,0 +1,207 @@
+/*  made by 2ky(@s2skky) */
+
+@font-face {
+    font-family: 'Roboto Mono', serif;
+    src: url("../fonts/RobotoMono-Regular.ttf");
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#main {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 600px;
+    top:50px;
+}
+#bar {
+    position: absolute;
+    left: 20px;
+    width: 300px;
+    height: 0px;
+
+    background-color: white;
+    transition: ease-in-out 200ms;
+}
+
+#arrow{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: -27.5px;
+    left: 140px;
+
+    border-style:solid;
+    border-width: 10px;
+    border-color: white transparent transparent transparent;
+
+    transition: ease-out 100ms;
+    transform-origin: 40% 40%;
+}
+
+#center {
+    position: absolute;
+    top:-11px;
+    left: 147.5px;
+    width: 3.5px;
+    height: 40px;
+    background-color: #ffffff;
+    transition: ease-out 500ms;
+}
+
+#tick0,
+#tick1,
+#tick2,
+#tick3,
+#tick4,
+#tick5,
+#tick6,
+#tick7,
+#tick8,
+#tick9,
+#tick10,
+#tick11,
+#tick12,
+#tick13,
+#tick14,
+#tick15,
+#tick16,
+#tick17,
+#tick18,
+#tick19,
+#tick20,
+#tick21,
+#tick22,
+#tick23,
+#tick24,
+#tick25,
+#tick26,
+#tick27,
+#tick28,
+#tick29,
+#tick30,
+#tick31,
+#tick32,
+#tick33,
+#tick34,
+#tick35,
+#tick36,
+#tick37,
+#tick38,
+#tick39,
+#tick40,
+#tick41,
+#tick42,
+#tick43,
+#tick44,
+#tick45,
+#tick46,
+#tick47,
+#tick48,
+#tick49,
+#tick50,
+#tick51,
+#tick52,
+#tick53,
+#tick54,
+#tick55,
+#tick56,
+#tick57,
+#tick58,
+#tick59,
+#tick60,
+#tick61,
+#tick62,
+#tick63,
+#tick64,
+#tick65,
+#tick66,
+#tick67,
+#tick68,
+#tick69,
+#tick70,
+#tick71,
+#tick72,
+#tick73,
+#tick74,
+#tick75,
+#tick76,
+#tick77,
+#tick78,
+#tick79,
+#tick80,
+#tick81,
+#tick82,
+#tick83,
+#tick84,
+#tick85,
+#tick86,
+#tick87,
+#tick88,
+#tick89,
+#tick90,
+#tick91,
+#tick92,
+#tick93,
+#tick94,
+#tick95,
+#tick96,
+#tick97,
+#tick98,
+#tick99{
+    position: absolute;
+    top: -9px;
+    height: 35px;
+    width: 5px;
+    background-color: white;
+    left: 147.5px;
+}
+
+#early{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #bfffb9;
+    transition: ease-out 500ms;
+}
+#late{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #FFB3B3;
+    transition: ease-out 500ms;
+}
+
+#time {
+    text-align: center;
+    position: absolute;
+    left: 138.5px;
+    bottom: -47.5px;
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #ffffff;
+    transition: ease-out 500ms;
+}
+/* diff = 15*/
+#acc {
+    text-align: center;
+    position: absolute;
+    left: 141px;
+    bottom: -62.5px;
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #ffffff;
+    transition: ease-out 500ms;
+}
