@@ -108,7 +108,7 @@ socket.onmessage = event => {
         if (curSR !== menu.bm.stats.SR) {
             curSR = menu.bm.stats.SR;
             sr.innerHTML = "SR: " + curSR + "*";
-        } else {
+        } else if (curSR === 0) {
             sr.innerHTML = "SR: " + curSR + "*";
         }
 
