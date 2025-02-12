@@ -98,11 +98,14 @@ socket.onmessage = event => {
         }
 
         if (state === 2 && curBPMMin !== 0 && curBPMMax !== 0) {
+            /* uncomment this if you want static bpm instead and comment out the line below
             if (curBPMMin === curBPMMax) {
                 bpm.innerHTML = "BPM: " + menu.bm.stats.BPM.common;
             } else {
                 bpm.innerHTML = `BPM: ${curBPMMin}-${curBPMMax} (${menu.bm.stats.BPM.common})`;
             }
+             */
+            bpm.innerHTML = "BPM: " + menu.bm.stats.BPM.realtime;
         }
 
         if (curSR !== menu.bm.stats.SR) {
