@@ -1,5 +1,5 @@
 // made by 2ky(@s2skky)
-// https://github.com/tosuapp/tosu/wiki/v1-websocket-api-response
+// https://raw.githubusercontent.com/cyperdark/osu-counters/master/quickstart/js/socket.js
 
 // no touch
 let socket = new ReconnectingWebSocket("ws://127.0.0.1:24050/ws");
